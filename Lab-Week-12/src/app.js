@@ -43,8 +43,14 @@ console.log(studentsScholarship)
 
 
 function darkmode(){
-    const darkm = document.querySelector("div");
+    const darkm = document.querySelector(".container");
     darkm.classList.replace("light-theme", 'dark-theme');
 }
 
+function lightmode(){
+    const lightm = documents.querySelector(".container");
+    lightm.classList.replace("dark-theme", "light-theme");
+}
+
+lightmode()
 darkmode()
