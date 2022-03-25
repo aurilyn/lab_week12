@@ -16,8 +16,8 @@ const studentsScholarship = []
 
 function getAvg(student){
     let totalGrade = 0
-    for (let grade of student.grades) {
-        totalGrade += grade
+    for (let grades of student.grades) {
+        totalGrade += grades
     }
     return gradeTotal
 }
